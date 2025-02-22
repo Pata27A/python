@@ -63,3 +63,6 @@ print('El valor de PI es:', PI)
 
 NOMBRE_BASE_DATOS = 'cliente_db'
 print('Nombre de la Base de Datos:', NOMBRE_BASE_DATOS)
+
+# constante, usar en lenguaje Python, aunque no esten en mayusculas
+#print('valor de math.pi', math.pi)

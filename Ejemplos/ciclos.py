@@ -14,3 +14,22 @@ for letra in cadena:
 frutas = ['platano', 'fresa', 'hongo']
 for fruta in frutas:
     print(fruta, end=' ')
+
+
+#--------------------------------------------------------------------------------------
+#Ausencia de valor
+nombre = None
+while not nombre:
+    nombre = input('Ingresa tu nombre de usuario: ')
+
+print(f'Nombre de usuario valido: {nombre}')
+
+#--------------------------------------------------------------------------------------
+#Funcion Range, es una funcion incorporada que genera una secuencua de numeros, se utiliza en FOR
+
+for i in range(5):
+    print(i)
+
+
+for i in range(0, 10, 2):
+    print(i)

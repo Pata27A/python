@@ -33,3 +33,16 @@ for i in range(5):
 
 for i in range(0, 10, 2):
     print(i)
+#--------------------------------------------------------------------------------------
+#Break y continue
+#break
+for nummero in range(1, 10):
+    if nummero % 2 == 0:
+        print(nummero)
+        break #salir del ciclo
+
+#continue
+for nummero in range(1, 10):
+    if nummero % 2 == 1:
+        continue #salir del ciclo
+    print(nummero)
